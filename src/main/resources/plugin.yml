@@ -1,0 +1,10 @@
+name: WebhookSender
+version: '${project.version}'
+main: net.daechler.webhooksender.WebhookSender
+api-version: 1.19
+authors: [Daechler]
+description: Send webhooks to your Discord server.
+commands:
+  webhook:
+    description: Triggers a webhook.
+    usage: /webhook <number> <message>
